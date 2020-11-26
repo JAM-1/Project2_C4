@@ -1,29 +1,29 @@
 # c4_game
 
-## Project setup
-```
-npm install
-```
+To run the code found in this repo:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Clone repo. To clone this repo please follow the instructions found in the github.com link: https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Download and install Express
+Download and install MongoDB
 
-### Run your unit tests
-```
-npm run test:unit
-```
+Within Terminal navigate to: ..C4_game/server
+Enter: npm install
+Enter: npm run seeds //this will pre-populate players
+Once complete Enter npm run server:dev //this will run the MongoDB Server
 
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
+Open a new Terminal and navigate to: ..C4_game/client
+Enter: npm run serve //this will run the Express Front End
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Open Browser and navigate to URL:localhost:8080
+
+Technologies and Tools used:
+
+Visual Studio Code
+Vue.js
+Node.js (Express)
+Google Chrome Browser
+JavaScript
+MongoDB
+HTML
+CSS
